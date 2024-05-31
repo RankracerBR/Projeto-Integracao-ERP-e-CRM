@@ -180,7 +180,7 @@ def lambda_handler(event, context):
 
 ![alt text](image-4.png)
 
-# O primeiro lambda, a partir do momento em que criamos o API Gateway e colocamos o método 'GET' e atrelamos ele ao Lambda01, o trigger já está criado, porém no Lambda02 precisa-se manualmente definir o triger, especificamente para o S3 Bucket
+# - O primeiro lambda, a partir do momento em que criamos o API Gateway e colocamos o método 'GET' e atrelamos ele ao Lambda01, o trigger já está criado, porém no Lambda02 precisa-se manualmente definir o triger, especificamente para o S3 Bucket
 
 ![alt text](image-6.png)
 
@@ -209,27 +209,27 @@ def lambda_handler(event, context):
 
 ![alt text](image-9.png)
 
-# O uso do Postman foi importante, pois pudemos obter algumas informações necessárias do bucket chaves de acesso, para assim fazer o envio do documento ".json" 
+# - O uso do Postman foi importante, pois pudemos obter algumas informações necessárias do bucket chaves de acesso, para assim fazer o envio do documento ".json" 
 
-# Primeiro Passo: Obter a URL do API Gateway e enviar o Método GET:
+# - Primeiro Passo: Obter a URL do API Gateway e enviar o Método GET:
 
 ![alt text](image-10.png)
 
-# Segundo Passo: Enviar para URL:
+# - Segundo Passo: Enviar para URL:
 
 ![alt text](image-11.png)
 
-# Terceiro Passo: Configurar os campos e usar o método POST na URL obtida anteriormente, juntamente com o arquivo:
+# - Terceiro Passo: Configurar os campos e usar o método POST na URL obtida anteriormente, juntamente com o arquivo:
 
 ![alt text](image-13.png)
 
-# Quarto Passo: Verificar o arquivo no Bucket:
+# - Quarto Passo: Verificar o arquivo no Bucket:
 
 ![alt text](image-14.png)
 
 ![alt text](image-15.png)
 
-# Quinto Passo: Verificando as Informações Obtidas pelo Lambda01
+# - Quinto Passo: Verificando as Informações Obtidas pelo Lambda01
 
 ![alt text](image-16.png)
 
